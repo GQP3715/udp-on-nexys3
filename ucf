@@ -8,7 +8,7 @@ NET "phy_tx_clk" LOC = "L5"  | IOSTANDARD = "LVCMOS33";
 NET "phy_tx_clk" TNM_NET = "mii_tx_clk";
 TIMESPEC "TS_mii_tx_clk" = PERIOD "mii_tx_clk" 40 ns HIGH 50%;
 
-#NET "phy_tx_clk" CLOCK_DEDICATED_ROUTE = FALSE; # Needed for Nexys3 L5 pin
+#NET "phy_tx_clk" CLOCK_DEDICATED_ROUTE = FALSE; 
 
 
 
