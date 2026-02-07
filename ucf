@@ -26,13 +26,13 @@ NET "btn_send"  LOC = "D9" | IOSTANDARD = "LVCMOS33";
 
 NET "phy_tx_en"      LOC = "L2" | IOSTANDARD = "LVCMOS33" | SLEW = "FAST"| DRIVE = "12";
 
-NET "phy_tx_data[0]" LOC = "T1" | IOSTANDARD = "LVCMOS33" | SLEW = "FAST"| DRIVE = "12";
+NET "phy_tx_data[0]" LOC = "U2" | IOSTANDARD = "LVCMOS33" | SLEW = "FAST"| DRIVE = "12";
 
-NET "phy_tx_data[1]" LOC = "T2" | IOSTANDARD = "LVCMOS33" | SLEW = "FAST"| DRIVE = "12";
+NET "phy_tx_data[1]" LOC = "U1" | IOSTANDARD = "LVCMOS33" | SLEW = "FAST"| DRIVE = "12";
 
-NET "phy_tx_data[2]" LOC = "U1" | IOSTANDARD = "LVCMOS33" | SLEW = "FAST"| DRIVE = "12";
+NET "phy_tx_data[2]" LOC = "T2" | IOSTANDARD = "LVCMOS33" | SLEW = "FAST"| DRIVE = "12";
 
-NET "phy_tx_data[3]" LOC = "U2" | IOSTANDARD = "LVCMOS33" | SLEW = "FAST"| DRIVE = "12";
+NET "phy_tx_data[3]" LOC = "T1" | IOSTANDARD = "LVCMOS33" | SLEW = "FAST"| DRIVE = "12";
 
 
 
