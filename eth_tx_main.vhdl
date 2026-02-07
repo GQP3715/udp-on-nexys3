@@ -39,11 +39,9 @@ architecture Behavioral of eth_tx_main is
     x"4",x"0", x"0",x"0", x"4",x"0", x"1",x"1", 
 -- IP checksum
 	 x"2",x"6", x"9",x"5",
--- Source IP (192.168.1.10), Dest IP (192.168.1.5)
-	 --x"C",x"0", x"A",x"8", x"0",x"1", x"0",x"A", x"C",x"0", x"A",x"8", x"0",x"1", x"0",x"5",
+-- Source IP, Dest IP
 	 x"0",x"A", x"0",x"0", x"0",x"0", x"0",x"A", x"0",x"A", x"0",x"0", x"0",x"0", x"0",x"5",
 -- UDP header Ports 4660, Length 54 (0x0036)
-	 --x"1",x"2", x"3",x"4", x"1",x"2", x"3",x"4", x"0",x"0", x"3",x"6", x"0",x"0", x"0",x"0"
 	 x"1",x"2", x"3",x"4", x"1",x"2", x"3",x"4", x"0",x"0", x"3",x"6", x"0",x"0", x"0",x"0"
 --END OF LAYERS PACKET STRUCTURE 
 );
