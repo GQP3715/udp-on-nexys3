@@ -5,8 +5,7 @@ use WORK.PCK_CRC32_D4.all;
 
 
 entity eth_tx_main is
-    Port ( clk : in  STD_LOGIC; -- 100mhz clk signal 
-			  --eth_tx_clk : in  STD_LOGIC; -- 25mhz clk signal 
+    Port ( clk : in  STD_LOGIC; 
            tx_start : in  STD_LOGIC; -- signal for sending order
            --tx_payload : in  STD_LOGIC_VECTOR (3 downto 0); --data carried from BRAM ----not used for now 
            tx_d : out  STD_LOGIC_VECTOR (3 downto 0); -- data sent to MII 
